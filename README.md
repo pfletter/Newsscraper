@@ -7,9 +7,8 @@ Console Instructions:
 
 at Command line, User input: website URL to crape data from, and FILENAME to save data to
 
-NEWSSCRAPER Program scrapes the main text from the website and save a JSON file:
+NEWSSCRAPER Program scrapes the main text from the website and save a JSON dictionary with the extracted data:
 
-# Create a dictionary with the extracted data
 data = {
     "website": website_url,
     "timestamp": str(datetime.now()),
